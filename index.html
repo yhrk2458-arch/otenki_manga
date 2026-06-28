@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天気漫画</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>天気漫画</h1>
+    <p class="subtitle">今日の天気と気温で、物語が変わる</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label for="area-select">地域を選んでください</label>
+      <select id="area-select">
+        <option value="">-- 選択してください --</option>
+        <!-- 地域はscript.jsで動的に追加されます -->
+      </select>
+    </section>
+
+    <section id="result" class="result hidden">
+      <div class="weather-info">
+        <span id="weather-icon">☀️</span>
+        <span id="temp-display">--℃</span>
+        <span id="weather-text">--</span>
+      </div>
+
+      <div class="manga-frame">
+        <img id="manga-image" src="images/placeholder.png" alt="今日の漫画">
+        <p id="manga-title">読み込み中...</p>
+      </div>
+    </section>
+
+    <section id="error-message" class="error hidden">
+      天気情報を取得できませんでした。しばらくしてから再度お試しください。
+    </section>
+  </main>
+
+  <footer>
+    <p>天気データ提供:気象庁</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

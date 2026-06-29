@@ -1,0 +1,68 @@
+{
+  "comfortable": {
+    "label": "快適帯(15〜22℃)",
+    "sunny": [
+      { "id": "comf_sunny_01", "title": "窓を全開にして風を通す", "image": "images/placeholder.png" },
+      { "id": "comf_sunny_02", "title": "洗濯物や布団を干す", "image": "images/placeholder.png" },
+      { "id": "comf_sunny_03", "title": "長めの散歩に出る", "image": "images/placeholder.png" },
+      { "id": "comf_sunny_04", "title": "外でスケッチや読書をする", "image": "images/placeholder.png" },
+      { "id": "comf_sunny_05", "title": "自転車で少し遠出する", "image": "images/placeholder.png" }
+    ],
+    "cloudy": [
+      { "id": "comf_cloudy_01", "title": "猫が窓辺で長時間まどろむ", "image": "images/placeholder.png" },
+      { "id": "comf_cloudy_02", "title": "衣替えを少しだけ進める", "image": "images/placeholder.png" },
+      { "id": "comf_cloudy_03", "title": "散歩がてら近所をふらっと一周する", "image": "images/placeholder.png" },
+      { "id": "comf_cloudy_04", "title": "植物の様子をチェックする", "image": "images/placeholder.png" },
+      { "id": "comf_cloudy_05", "title": "予定のない時間をゆっくり過ごす", "image": "images/placeholder.png" }
+    ],
+    "rainy": [
+      { "id": "comf_rainy_01", "title": "雨の匂いを感じる", "image": "images/placeholder.png" },
+      { "id": "comf_rainy_02", "title": "ハーブティーを飲みながら過ごす", "image": "images/placeholder.png" },
+      { "id": "comf_rainy_03", "title": "猫と窓辺でぼんやり外を眺める", "image": "images/placeholder.png" },
+      { "id": "comf_rainy_04", "title": "読書や創作がはかどる", "image": "images/placeholder.png" },
+      { "id": "comf_rainy_05", "title": "雨上がりを見越して植物を気にする", "image": "images/placeholder.png" }
+    ]
+  },
+  "warm": {
+    "label": "暖かい帯(23〜27℃)",
+    "sunny": [
+      { "id": "warm_sunny_01", "title": "ピクニック", "image": "images/placeholder.png" },
+      { "id": "warm_sunny_02", "title": "自転車を漕ぐ", "image": "images/placeholder.png" }
+    ],
+    "cloudy": [
+      { "id": "warm_cloudy_01", "title": "猫と昼寝する", "image": "images/placeholder.png" },
+      { "id": "warm_cloudy_02", "title": "雲間から光が差すのを見つける", "image": "images/placeholder.png" },
+      { "id": "warm_cloudy_03", "title": "作業中、猫がそっと近づいてくる", "image": "images/warm_cloudy_03.jpg" }
+    ],
+    "rainy": [
+      { "id": "warm_rainy_01", "title": "低気圧でだるい", "image": "images/placeholder.png" },
+      { "id": "warm_rainy_02", "title": "雨音を聞く", "image": "images/placeholder.png" },
+      { "id": "warm_rainy_03", "title": "虹を楽しみにする", "image": "images/placeholder.png" }
+    ]
+  },
+  "hot": {
+    "label": "高温帯(28℃以上)",
+    "sunny": [
+      { "id": "hot_sunny_01", "title": "冷たい飲み物を選ぶ", "image": "images/placeholder.png" },
+      { "id": "hot_sunny_02", "title": "日陰を探して歩く", "image": "images/placeholder.png" }
+    ],
+    "cloudy": [
+      { "id": "hot_cloudy_01", "title": "猫がタイルの上で涼む", "image": "images/placeholder.png" }
+    ],
+    "rainy": [
+      { "id": "hot_rainy_01", "title": "汗をかいた後シャワーでさっぱりする", "image": "images/placeholder.png" }
+    ]
+  },
+  "cold": {
+    "label": "低温帯(9℃以下)",
+    "sunny": [
+      { "id": "cold_sunny_01", "title": "吐く息が白くなることに気づく", "image": "images/placeholder.png" }
+    ],
+    "cloudy": [
+      { "id": "cold_cloudy_01", "title": "羽織るものを一枚増やすか迷う", "image": "images/placeholder.png" }
+    ],
+    "rainy": [
+      { "id": "cold_rainy_01", "title": "暖房の前で猫と固まっている", "image": "images/placeholder.png" }
+    ]
+  }
+}
